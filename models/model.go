@@ -5,3 +5,9 @@ type Tache struct {
 	Title       string
 	Description string	
 }
+
+type Ms struct {
+	Type  string      
+	Size  int         
+	Tasks any
+}
