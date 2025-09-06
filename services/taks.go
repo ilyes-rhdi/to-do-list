@@ -42,7 +42,7 @@ func InitMS(MS int, array bool, size int) {
 		Type:    t,
 		Size:    size,
 		Tasks:   tasks,
-		NbBlock: 0,
+		nbBlock: 0,
 	}
 
 	fmt.Println("MS initialized:", ms)
