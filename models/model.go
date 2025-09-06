@@ -10,4 +10,5 @@ type Ms struct {
 	Type  string      
 	Size  int         
 	Tasks any
+	nbBlock int
 }
